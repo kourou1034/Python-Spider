@@ -27,7 +27,7 @@ class MusicSpider(scrapy.Spider):
 		print("正在爬取热门歌曲...")
 		songs = response.xpath('//table[@id="auto-id-dqeTzu51W1gZO0rw"]/tbody/tr[@class="even"]')
 		for tr in songs:
-			song_url = tr.xpath('//div[@class="f-cb"]/a/@href')[0].extract(			print(song_name)
+			song_url = tr.xpath('//div[@class="f-cb"]/a/@href')[0].extract()
 			item['song'] = song_name
 			new_url2 = 'http://music.163.com' + str(song_url)
 
