@@ -1,0 +1,1067 @@
+2017-04-05 19:51:44 [scrapy.utils.log] INFO: Scrapy 1.3.3 started (bot: hupu)
+2017-04-05 19:51:44 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'hupu', 'LOG_FILE': 'scrapy.log', 'NEWSPIDER_MODULE': 'hupu.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['hupu.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
+2017-04-05 19:51:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-04-05 19:51:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-04-05 19:51:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-04-05 19:51:45 [scrapy.middleware] INFO: Enabled item pipelines:
+['hupu.pipelines.HupuPipeline']
+2017-04-05 19:51:45 [scrapy.core.engine] INFO: Spider opened
+2017-04-05 19:51:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-04-05 19:51:45 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-04-05 19:51:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/robots.txt> (referer: None)
+2017-04-05 19:51:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/bxj> (referer: None)
+2017-04-05 19:51:46 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://bbs.hupu.com/ent> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/15806550.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/15806550.html>
+{'artical': [],
+ 'author': '虎扑体育',
+ 'time': '2016-03-23',
+ 'title': '步行街版规（请勿引用违规、禁发募捐帖、取名帖、爆照帖、歪楼斗图和无关福利）',
+ 'url': 'https://bbs.hupu.com/15806550.html'}
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18890775.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18890982.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893828.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18887950.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895089.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18888114.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18890883.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891394.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [py.warnings] WARNING: c:\anaconda3\lib\site-packages\pymysql\cursors.py:166: Warning: (1050, "Table 'bxj' already exists")
+  result = self._query(query)
+
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18890775.html>
+{'artical': [],
+ 'author': '我只爱董小姐',
+ 'time': '19:51',
+ 'title': '我好像也要成为拆二代了。',
+ 'url': 'https://bbs.hupu.com/18890775.html'}
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18890982.html>
+{'artical': [],
+ 'author': '杰尼斯',
+ 'time': '19:51',
+ 'title': '湖南卫视正式发布IP大剧《择天记》宣传海报',
+ 'url': 'https://bbs.hupu.com/18890982.html'}
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893828.html>
+{'artical': [],
+ 'author': '霜冷長河',
+ 'time': '19:51',
+ 'title': '《少年包青天》包拯全程无尿点怒怼太师贤王太后皇上，光看gif就给周杰这演技跪了！',
+ 'url': 'https://bbs.hupu.com/18893828.html'}
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18887950.html>
+{'artical': [],
+ 'author': '315052636QQ',
+ 'time': '19:51',
+ 'title': '我就是大家口中的上有老，下有小。生活如此的艰难！',
+ 'url': 'https://bbs.hupu.com/18887950.html'}
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895089.html>
+{'artical': [],
+ 'author': '杰伦咖',
+ 'time': '19:51',
+ 'title': '一个男生跟你聊天很喜欢斗图，该怎么办     贝弗利',
+ 'url': 'https://bbs.hupu.com/18895089.html'}
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18888114.html>
+{'artical': [],
+ 'author': '威少17总决赛MVP',
+ 'time': '19:51',
+ 'title': '大一新生求教，手头有7000块零钱，想存到余额宝里面，不知道可不可行！',
+ 'url': 'https://bbs.hupu.com/18888114.html'}
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894491.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18890883.html>
+{'artical': [],
+ 'author': '谭晶的丝袜',
+ 'time': '19:51',
+ 'title': 'JR们拿到驾照后第一次开车上路是什么感觉？',
+ 'url': 'https://bbs.hupu.com/18890883.html'}
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894464.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894093.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891394.html>
+{'artical': [],
+ 'author': '卡利斯乐夫特',
+ 'time': '19:51',
+ 'title': '女票学姐发的观点，各位老哥看看有毛病嘛？',
+ 'url': 'https://bbs.hupu.com/18891394.html'}
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893137.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894682.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895055.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894326.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894470.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894491.html>
+{'artical': [],
+ 'author': '我搞过槟榔',
+ 'time': '19:51',
+ 'title': '有哪些诗句不出自同一首诗，但连着读起来朗朗上口',
+ 'url': 'https://bbs.hupu.com/18894491.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894464.html>
+{'artical': [],
+ 'author': '左岸花不开',
+ 'time': '19:51',
+ 'title': '【每日一拍】4月5日，随手拍下你在干什么吧？',
+ 'url': 'https://bbs.hupu.com/18894464.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894093.html>
+{'artical': [],
+ 'author': '春天乌托邦',
+ 'time': '19:51',
+ 'title': '看完隔壁工资单，心塞了',
+ 'url': 'https://bbs.hupu.com/18894093.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893137.html>
+{'artical': [],
+ 'author': '啦啦唔',
+ 'time': '19:51',
+ 'title': '好吧。看了射雕三部曲。我发现金庸和古龙有档次性的差距。',
+ 'url': 'https://bbs.hupu.com/18893137.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894682.html>
+{'artical': [],
+ 'author': '萨尔诺斯凯奇',
+ 'time': '19:51',
+ 'title': '现在周星驰再主演一部电影,金庸再写一部小说,张学友再发一张专辑,影响力该怎么排？',
+ 'url': 'https://bbs.hupu.com/18894682.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895055.html>
+{'artical': ['因为特来街上谋求懂行的技术支持，告诉我该怎么说服我爸不要买', '或者说服我可以买也行'],
+ 'author': '真真真真科密',
+ 'time': '19:51',
+ 'title': '我爸迷恋上什么频谱水机，把我惹毛了，求街上技术支持',
+ 'url': 'https://bbs.hupu.com/18895055.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894326.html>
+{'artical': ['刚才码了一堆字，全没了。',
+             '再试一下，简单说一下。',
+             '本人80后，年薪10W左右，和女朋友拍拖6年，她看中了C字开头奢侈品牌的16W '
+             'rmb的戒指，我存款只有5W，不愿意买，她各种哭闹。',
+             '详细的事，看能不能发帖再说。',
+             '居然可以去到审核界面。',
+             '那我试一下再详细说。',
+             '我和女朋友坐标广州，家境一般，算是小康吧，都是独生。',
+             '我说我要是我有100W，给你买10W的戒指肯定没问题啊。',
+             '我说以后有小孩子，所有的开销都是成几何级数增长，这10W花在一枚戒指上，值吗？。',
+             '她说，以后要是有小孩子了，我就更不旨意你会给我买这枚戒指了。现在给你存款清零了，是为了激发你更努力去赚钱。',
+             '其实上年我的存款的确有十几W，不过为了今年结婚，我拿出十多W出来装修房子了。本打算后天在她生日的时候求婚的，这两天也带她看了其他品牌的戒指，意料之中各种嫌弃。我也不想我花几W块钱买了东西向她求婚，只感动到自己，而看到她一脸嫌弃。',
+             '现在所有求婚的心情没有了，请教下众JR遇到过这种情况吗？最后怎么解决？'],
+ 'author': '吉他畸形人',
+ 'time': '19:51',
+ 'title': '我女朋友拜金吗？',
+ 'url': 'https://bbs.hupu.com/18894326.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894470.html>
+{'artical': ['入职的时候，中华干细胞库的工作人员前来动员，当时跟 LZ 一起的那批医院新入职的医护人员大概一半左右都入库了吧。',
+             '然后今天在医院上班的时候，接到干细胞库的工作人员的电话，通知 LZ 初步配型成功，询问 LZ 是否有捐献的意愿。',
+             '对方是82年男性，白血病患者。',
+             'LZ 本人是同意的，也通过电话简单表达了这样的意思，不过还是准备周末回家跟父母交代一下。毕竟这么大的事情。',
+             '这个也是目前比较头疼的事情，当初入库的时候 LZ 的母亲就颇有微词。',
+             '接下来还需要高分辨配型，然后接受动员剂注射，最后才能真正抽取干细胞。',
+             '要走的路还很长。',
+             '如果成功的话，这应该是 LZ 职业生涯第一个真正救治的病人吧。',
+             '虽然自己学艺不精，距离真正的专家大牛还有好长一段路要走，但也算有机会通过别的方式提前实现一点自己的职业理想吧。',
+             '上 HP 也有好多年了，步行街的 JRS 也都是有爱的。特立此贴，不定期更新进展。'],
+ 'author': '仓颉的诗',
+ 'time': '19:47',
+ 'title': '终于轮到我了？今天接到电话，干细胞配型成功。',
+ 'url': 'https://bbs.hupu.com/18894470.html'}
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894232.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895104.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894762.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891717.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18892648.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18889294.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18658354.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18889836.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894232.html>
+{'artical': [],
+ 'author': '魔王罗汉果',
+ 'time': '19:47',
+ 'title': '如果没有学区房的概念，我们的生活会是什么样子',
+ 'url': 'https://bbs.hupu.com/18894232.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895104.html>
+{'artical': [],
+ 'author': 'nicky-young',
+ 'time': '19:47',
+ 'title': '大家看看在我有生之年能成为拆二代吗？',
+ 'url': 'https://bbs.hupu.com/18895104.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894762.html>
+{'artical': [],
+ 'author': '姑娘有点萌',
+ 'time': '19:47',
+ 'title': '女儿名字，和她爸有分歧，望众jr给个意见！',
+ 'url': 'https://bbs.hupu.com/18894762.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891717.html>
+{'artical': [],
+ 'author': '凯文不说话',
+ 'time': '19:47',
+ 'title': '惊！大家看看我朋友像不像安贾丽女神！',
+ 'url': 'https://bbs.hupu.com/18891717.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18892648.html>
+{'artical': [],
+ 'author': '为阿男带盐',
+ 'time': '19:47',
+ 'title': 'ZT炒房团9个月把漳州房价炒高两三倍 轻松卷走2亿元',
+ 'url': 'https://bbs.hupu.com/18892648.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18889294.html>
+{'artical': [],
+ 'author': '我怀念的ZY',
+ 'time': '19:47',
+ 'title': '转自知乎 你在哪一刻体验到了真正的贫富差距',
+ 'url': 'https://bbs.hupu.com/18889294.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18658354.html>
+{'artical': [],
+ 'author': '好巧好不巧',
+ 'time': '19:47',
+ 'title': '希望家人们鼓励我 ',
+ 'url': 'https://bbs.hupu.com/18658354.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18889836.html>
+{'artical': [],
+ 'author': '金鱼和水',
+ 'time': '19:47',
+ 'title': '大一狗，请问本科中途去当兵合不合适？',
+ 'url': 'https://bbs.hupu.com/18889836.html'}
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894593.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894524.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894503.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894028.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894593.html>
+{'artical': [],
+ 'author': 'DBW邓博文',
+ 'time': '19:48',
+ 'title': '求助贴，脚崴了一个多月了，当时没有肿但现在脚踝骨从下往上按有时有酸痛。',
+ 'url': 'https://bbs.hupu.com/18894593.html'}
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18805984.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894524.html>
+{'artical': [],
+ 'author': '你瞎啊',
+ 'time': '19:48',
+ 'title': '请教贴，第一次跟女朋友（男朋友）在床上睡觉是什么体验。    狐狸大幂幂',
+ 'url': 'https://bbs.hupu.com/18894524.html'}
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894639.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18884755.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894503.html>
+{'artical': [],
+ 'author': '后如大胸姐',
+ 'time': '19:48',
+ 'title': '大家有没有发现达康书记长的挺像沈腾、说话声音也像',
+ 'url': 'https://bbs.hupu.com/18894503.html'}
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894028.html>
+{'artical': [],
+ 'author': '两块一斤',
+ 'time': '19:47',
+ 'title': '大家有没有觉得部分老款马6车主开车特别横冲直撞？',
+ 'url': 'https://bbs.hupu.com/18894028.html'}
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891188.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18805984.html>
+{'artical': [],
+ 'author': 'assholeeric',
+ 'time': '19:47',
+ 'title': '[固特异-上海半程马拉松]你在跑步或运动中最常听的一首歌是什么？',
+ 'url': 'https://bbs.hupu.com/18805984.html'}
+2017-04-05 19:51:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894867.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894639.html>
+{'artical': [],
+ 'author': 'hyq风中追风丶',
+ 'time': '19:47',
+ 'title': '大家来分享下 平时运动跑步听的歌吧',
+ 'url': 'https://bbs.hupu.com/18894639.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18884755.html>
+{'artical': [],
+ 'author': 'jr可以用来吃吗',
+ 'time': '19:48',
+ 'title': '如果你是香港人，你会怎么看待大陆人',
+ 'url': 'https://bbs.hupu.com/18884755.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893594.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895138.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891188.html>
+{'artical': [],
+ 'author': '我是鱼总',
+ 'time': '19:48',
+ 'title': '《不冷笑话》第1350期：招聘女秘书最重要的一点，你看懂了吗？',
+ 'url': 'https://bbs.hupu.com/18891188.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894874.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895108.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891256.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895146.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894867.html>
+{'artical': [],
+ 'author': 'Heunix',
+ 'time': '19:48',
+ 'title': '猫扑，还有家人逛吗？',
+ 'url': 'https://bbs.hupu.com/18894867.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18890240.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895147.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893594.html>
+{'artical': [],
+ 'author': '阿砖66',
+ 'time': '19:48',
+ 'title': '科目三今天又挂了。。。',
+ 'url': 'https://bbs.hupu.com/18893594.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895138.html>
+{'artical': [],
+ 'author': '吊毛比吊长',
+ 'time': '19:48',
+ 'title': 'ZT 《今日说法》主持人起诉建行:全额计息方式不公平',
+ 'url': 'https://bbs.hupu.com/18895138.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894874.html>
+{'artical': [],
+ 'author': '全智贤simida',
+ 'time': '19:48',
+ 'title': '诶，突然感觉追一个女生好难受，谁来安慰安慰我',
+ 'url': 'https://bbs.hupu.com/18894874.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895108.html>
+{'artical': [],
+ 'author': 'woochit',
+ 'time': '19:48',
+ 'title': '我们学校食堂七块钱的套餐  什么水平？',
+ 'url': 'https://bbs.hupu.com/18895108.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891256.html>
+{'artical': [],
+ 'author': '鬼龙有衰老',
+ 'time': '19:48',
+ 'title': '转 雄县村民:和上北京户口一样了 感觉自己一夜暴富',
+ 'url': 'https://bbs.hupu.com/18891256.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895146.html>
+{'artical': [],
+ 'author': 'zhuoli',
+ 'time': '19:48',
+ 'title': '有没有合肥卖房子的JR',
+ 'url': 'https://bbs.hupu.com/18895146.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18890240.html>
+{'artical': [],
+ 'author': 'CCCrazy',
+ 'time': '19:48',
+ 'title': 'Jr们 你们买过这种刀割嘛？',
+ 'url': 'https://bbs.hupu.com/18890240.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895147.html>
+{'artical': [],
+ 'author': 'crossove库里',
+ 'time': '19:48',
+ 'title': '街上没人讨论四川泸州太扶中学事件吗',
+ 'url': 'https://bbs.hupu.com/18895147.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893914.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895115.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18890585.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893511.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893914.html>
+{'artical': [],
+ 'author': '不合理啊',
+ 'time': '19:48',
+ 'title': '马化腾：我最大的担忧，就是越来越看不懂年轻人的喜好 ZT',
+ 'url': 'https://bbs.hupu.com/18893914.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891129.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895115.html>
+{'artical': [],
+ 'author': '耳音缠绕',
+ 'time': '19:48',
+ 'title': '作为一个男大学生，怕虫怕鱼怕黑怕鬼怕酒店睡觉算天选之子吗？小福利',
+ 'url': 'https://bbs.hupu.com/18895115.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/16834029.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18890857.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18890585.html>
+{'artical': [],
+ 'author': 'Cricket蛐蛐儿',
+ 'time': '19:48',
+ 'title': 'zt 四川泸州太伏中学学生坠亡事件”迄今已发现三段造谣视频',
+ 'url': 'https://bbs.hupu.com/18890585.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893511.html>
+{'artical': [],
+ 'author': '龙枫八宝周',
+ 'time': '19:48',
+ 'title': '我B夺冠了，我却要分手了。jrs们帮我分析一下（含聊天记录）',
+ 'url': 'https://bbs.hupu.com/18893511.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18892781.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891129.html>
+{'artical': [],
+ 'author': '涌泉之恩滴水相报',
+ 'time': '19:48',
+ 'title': '历史上有什么政权能存在一千年之久吗？',
+ 'url': 'https://bbs.hupu.com/18891129.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/16834029.html>
+{'artical': ['——————————————————————————',
+             '这几年挺累的。',
+             '做淘宝的谁不累。不过我遇到的事情还要多一点。',
+             '既然说不想奋斗，那就说说怎么奋斗的。从头说起吧，当作某种生活即将告一段落的总结。',
+             '大背景是这样的，十二年前我来到深圳，十一年前我在虎扑注册了账号，十年前房价开始飞涨……',
+             '那时候我在一家动画公司当编剧，老婆在一家房地产公司做行政。都是普通家庭，靠着家里人每家凑了5w，加上两年积蓄，在深圳付了首付，买了套房。',
+             '然后动画公司倒闭了，我又跑到上海一家漫画公司，过了不久，这公司也倒闭了……自带倒闭属性也是醉。后来又回深圳，当过短信编辑，也接了一些图书编纂的私活儿。',
+             '老婆的房地产公司08年还是09的时候也走下坡路，被裁员了，我那时也不稳定，差点还不上一个月三千的房贷。',
+             '后来保税区另一家动画公司找我上班，我买了气垫床睡在公司，白天黑夜加班，赶制大运会的动画项目，终于有了一点闲钱，老婆这会儿正被人忽悠跟着卖保险基本没收入，我们合计了下，我让老婆去自己开淘宝店卖女装。',
+             '老婆一个人没底气，找了一朋友合伙，朋友也是做动画出身，会作图什么的。刚进货，朋友说不干了。',
+             '好吧，女装开不起来，香港代购挺火。然后我就周末陪着老婆去香港，帮人买护肤品香水。\xa0',
+             '那时候淘宝上随便挂点东西都有人买，没有现在这些什么买流量啊，封杀啊之类乱七八糟的事儿，天猫也还不存在，挺容易就开起来了。',
+             '我经常逛虎扑交易区，自己也喜欢买鞋，逛香港发现鞋子有价格优势，就开始随便买买，在淘宝店卖运动鞋，哟，还挺好赚钱的，简直是躺赢。当然找货源过海关走水也是各种一言难尽，总之0度正品就是这么开起来的。',
+             '11年的时候，海关搞了个风沙行动，我不幸中招，被禁止入香港两年，渠道也转到内地，一直到现在。',
+             '中国动画呢，在《大圣归来》之前，也一直是半死不活的样子，被人诟病，我的职业也是被吐槽最多的。当然，我独立完成和80%剧本由我完成的动画连续剧都在中央电视台播出过三部，所以，就算我经历了10+以上的动画公司的倒闭，依然有动画公司找我干活儿，这也算运气。',
+             '做淘宝期间，我经常接个动画单就出去做几个月，把店铺丢给老婆，所以生意也是起起伏伏，总算没饿死。',
+             '去年还在惠州买了套房，当时想着到18年，有部电影能上院线的时候，搬去惠州的大房子，把淘宝店关了，深圳的房子租出去，每年写点东西，老婆带小孩做饭，过点正常人的日子，多好。',
+             '去年我淘宝店生意还可以，就稍微扩张了一下，租了个仓库，也贷款进了很多货。结果还没起飞，淘宝发疯，在快过年的时候把我的店封了。一般来说，过年的销量几乎能占全年的三分之一，这样的伤害非常大。关键淘宝还不讲道理，说无耻都是表扬它们。关于淘宝申诉的事儿我以后开贴专门写，这里就不提了。',
+             '总之我不想开淘宝，也不看好淘宝的未来。',
+             '前几天和另外一个两皇冠被封的哥们聊天，我还跟他说，我们这算是先死为敬，到时候可以笑摸其他人的狗头。他差点笑出眼泪了——微信上看不到，我猜的。',
+             '去年我被封之后，无奈开了家新店，很辛苦亏着卖半年做到三钻，然后跑了两趟杭州，解封了两皇冠店，过程也不想回忆，总之半年时间，仓库装修，租金，压货成本，清仓亏损之类，加起来没法计算。',
+             '到了7月，',
+             '。我真想找到马云，当面把我的鞋脱下来问问他是真是假，怎么看出来的？',
+             '同时呢，去年我在惠州买房有25w的免息贷款也刚好7月到期，有些事情就是这么巧。最需要钱的时候受到了几乎致命的一击。',
+             '本来依靠淘宝的销量是可以还款，现在基本没戏了。',
+             '我让老婆弄了个微信，全部低价清仓，也在同行圈里发了库存单，不准备申诉了，淘宝店直接不要了，滚tmd。',
+             '然而，淘宝这个碧池在我没申诉的情况下，解封了两皇冠店，大概就是说误判的意思吧。',
+             '好吧，店铺又回来了，不过没所谓，照常清货，清完一样去TMD。',
+             '也许我是个loser。',
+             '但是当我在同行群发出库存单，说我不干了的时候，他们说，恭喜！',
+             '我问大家什么时候不干了，“不干了，还能干嘛，除了开淘宝”。',
+             '我现在也是半失业接单状态，因为淘宝清货牵扯了太多精力，未来怎么样也没底。但是我觉得，只要不为淘宝所累，我还是能进入工作状态，找到工作节奏的。',
+             '而且，这几年买房买车做淘宝，一共欠了一百多万的贷款。',
+             '我跟老婆说：卖套房吧，干嘛这么累？换个活法，不然白过了这一辈子，好多地方没去看过，很多事不曾经历。天天跟淘宝纠缠，和极品扯皮，一点意思都没有。',
+             '我老婆说：现在卖了，以后还涨怎么办？你看XX，和我们一起买的，到时候我们只有一套。',
+             '女人，永远觉得房子可靠。于是我使出了杀招：',
+             '我说：不要觉得房子是投资的唯一手段，没错，炒股不赚钱，淘宝不赚钱，只有房子在涨。但是总有尽头，人生的意义不是等待房子升值，有太多重要的事情。 '
+             '你要知道，你最好的投资的是什么。',
+             '她问：是什么？',
+             '我说：是我！',
+             '差点被笑死，总算是说服了。',
+             '以后赚少点又怎么样，靠着杠杆活，也能被杠杆压死，至少赢得了时间，不要把还没剩多少的年轻的时光，全部耗费在这些破事上了。',
+             '说不想奋斗也是讲笑，只希望在没负债的情况下，轻轻松松的工作，写东西。',
+             '至少能过一点正常人的生活。有周末，能下班后看看电视，能带小孩玩。就这么简单。'],
+ 'author': '0度英雄',
+ 'time': '19:48',
+ 'title': '不想奋斗了，深圳和惠州的房子，卖哪一套好？',
+ 'url': 'https://bbs.hupu.com/16834029.html'}
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18890857.html>
+{'artical': [],
+ 'author': 'Escapeas',
+ 'time': '19:48',
+ 'title': '来给23岁才开始初恋的女JR一些建议吧',
+ 'url': 'https://bbs.hupu.com/18890857.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893581.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18892249.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18892781.html>
+{'artical': [],
+ 'author': '汸塊柒',
+ 'time': '19:49',
+ 'title': '微信遇到一个骗子，聊了半天聊不下去了（已更新到308楼，310楼剧情反转）',
+ 'url': 'https://bbs.hupu.com/18892781.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893563.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893581.html>
+{'artical': ['初恋，9年经过了异地恋，偷偷摸摸谈恋爱，最后倒在了她妈妈这一关',
+             '我感觉的出在她妈这段时间的逼迫和洗脑下，她选择了放弃。可能她也觉得和分手以后能找到更好的人吧',
+             '她这段时间的表现也让我感觉的出，她已经不爱了',
+             '有一天她说幼儿园要加班，平时加班都要到19点，我觉得她会肚子饿、就买了三明治和饼干等她加班结束',
+             '她也不让我送进去也不让我站在幼儿园门口。我只能远远地站着。一等就是4个小时，她22点和同事从里面走出来，我把东西给了她，她把三明治给了同事（这个很正常，毕竟人家加班了那么久也饿了）然后她坐到车里她说饼干我不要吃你拿走吧，把饼干扔给我。。然后开车准备走了。。当时就很生气就把饼干扔到了垃圾桶，然后她就开走了。从幼儿园出来直到走整个过程不超过5分钟，哎。。。',
+             '这段时间也对我爱理不理 ，发消息不怎么回',
+             '见到她的时候看我的眼神眼睛里感觉不到爱了。。这个有女朋友的jr肯定明白',
+             '哎心里很烦。。',
+             '补充一个小插曲：我爸给我们的建议就是让我女朋友去跟她妈说，“你让我分手可以，但是我不会去相亲，也不会接受你们给我找对象”',
+             '你们猜我女朋友怎么回答我？ \xa0她说不可能。。我妈肯定会说“你到底想干什么”',
+             '我就直接无语了。。哎。。连这个都不敢说'],
+ 'author': 'IBGDRGN丶',
+ 'time': '19:49',
+ 'title': '和在一起九年的女朋友走到了尽头',
+ 'url': 'https://bbs.hupu.com/18893581.html'}
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894913.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18888887.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/16681921.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18892249.html>
+{'artical': [],
+ 'author': '回忆是痛苦的根源',
+ 'time': '19:49',
+ 'title': '看到女神把和别的男生出去玩的照片发朋友圈，就随便问了问，谁知被骂了一顿。',
+ 'url': 'https://bbs.hupu.com/18892249.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893563.html>
+{'artical': [],
+ 'author': '看球未三年不聊',
+ 'time': '19:49',
+ 'title': '关于支付宝蚂蚁森林种树的问题',
+ 'url': 'https://bbs.hupu.com/18893563.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18886367.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894913.html>
+{'artical': [],
+ 'author': 'greatle',
+ 'time': '19:49',
+ 'title': '入坑《人民的名义》小说',
+ 'url': 'https://bbs.hupu.com/18894913.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18888130.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894585.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18888887.html>
+{'artical': [],
+ 'author': '捍员谇',
+ 'time': '19:49',
+ 'title': '妈妈和对象妈妈串通好组织我们怎么办17岁高三急需救火',
+ 'url': 'https://bbs.hupu.com/18888887.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/16681921.html>
+{'artical': [],
+ 'author': '魔宙MOJO',
+ 'time': '19:48',
+ 'title': '【原创】我是个地下记者，专门调查连环杀人、色魔、灭门惨案的新闻',
+ 'url': 'https://bbs.hupu.com/16681921.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18886367.html>
+{'artical': [],
+ 'author': '老猫家的小彡毛',
+ 'time': '19:49',
+ 'title': '你们听过分手时最伤人的一句话是什么？',
+ 'url': 'https://bbs.hupu.com/18886367.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18888130.html>
+{'artical': [],
+ 'author': '詹姆斯君临天下哦',
+ 'time': '19:49',
+ 'title': 'WWE杰夫哈迪回归了在摔跤狂热大赛上',
+ 'url': 'https://bbs.hupu.com/18888130.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18889541.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894891.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893278.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894677.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/15577523.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894585.html>
+{'artical': [],
+ 'author': 'Yu-Bryant',
+ 'time': '19:49',
+ 'title': '到底是我带队能力的问题还是队友真的坑？',
+ 'url': 'https://bbs.hupu.com/18894585.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18889541.html>
+{'artical': [],
+ 'author': '靓仔昌',
+ 'time': '19:49',
+ 'title': '发现蛮多人手汗严重的。有治疗方法吗？',
+ 'url': 'https://bbs.hupu.com/18889541.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894891.html>
+{'artical': [],
+ 'author': '抉澤',
+ 'time': '19:49',
+ 'title': '这顿晚饭什么水平',
+ 'url': 'https://bbs.hupu.com/18894891.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894234.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893278.html>
+{'artical': [],
+ 'author': '樱木花道-',
+ 'time': '19:49',
+ 'title': '大家不要再乱下软件了！我的手机被锁死了！',
+ 'url': 'https://bbs.hupu.com/18893278.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894677.html>
+{'artical': [],
+ 'author': '我登2017mvp',
+ 'time': '19:49',
+ 'title': '关于孩子在学校受欺负。贝弗利',
+ 'url': 'https://bbs.hupu.com/18894677.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/15577523.html>
+{'artical': [],
+ 'author': '御林军总统领',
+ 'time': '19:49',
+ 'title': '诊断出胆囊息肉，医生建议手术切除胆囊，有没有懂的jrs帮忙看看片子。',
+ 'url': 'https://bbs.hupu.com/15577523.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894879.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894234.html>
+{'artical': [],
+ 'author': '严寒咯',
+ 'time': '19:49',
+ 'title': '土木狗的工作问题，干地产的jr进来帮小弟参考一下',
+ 'url': 'https://bbs.hupu.com/18894234.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18886936.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895040.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18892391.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894879.html>
+{'artical': [],
+ 'author': '天马骨人',
+ 'time': '19:49',
+ 'title': '不懂就问:有过前男友的女人再找男朋友，到底有多难？\n\n',
+ 'url': 'https://bbs.hupu.com/18894879.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894853.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894921.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894736.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18886936.html>
+{'artical': [],
+ 'author': '李白很忙',
+ 'time': '19:49',
+ 'title': 'JRS，中韩冲突升级，韩国国内“以此为契机降低对华经济依赖度”的呼声不断高涨！',
+ 'url': 'https://bbs.hupu.com/18886936.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894623.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895040.html>
+{'artical': [],
+ 'author': 'Ason_kidd',
+ 'time': '19:49',
+ 'title': '关于《嫌疑人x的献身》，大家批评王凯的演技，是否稍有偏颇',
+ 'url': 'https://bbs.hupu.com/18895040.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18892391.html>
+{'artical': [],
+ 'author': 'hupu_d741778f1cb290e5',
+ 'time': '19:49',
+ 'title': '他强任他强，我有大B黄。',
+ 'url': 'https://bbs.hupu.com/18892391.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894853.html>
+{'artical': [],
+ 'author': '库里的大保健',
+ 'time': '19:49',
+ 'title': '喜欢的女生要过生日了 喜欢打篮球 送什么比较好',
+ 'url': 'https://bbs.hupu.com/18894853.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894921.html>
+{'artical': [],
+ 'author': 'kids116',
+ 'time': '19:49',
+ 'title': '《人民的名义》里你觉得谁的演技最好？',
+ 'url': 'https://bbs.hupu.com/18894921.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893451.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894736.html>
+{'artical': [],
+ 'author': 'Nowitzbo',
+ 'time': '19:49',
+ 'title': '处女贴，大家在大学谈恋爱有没有这样的感觉',
+ 'url': 'https://bbs.hupu.com/18894736.html'}
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894623.html>
+{'artical': [],
+ 'author': '这样够拉风不',
+ 'time': '19:49',
+ 'title': '人品太差？借2000元被所有人都拒绝？',
+ 'url': 'https://bbs.hupu.com/18894623.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895085.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895123.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893494.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893451.html>
+{'artical': [],
+ 'author': '唐雪萌',
+ 'time': '19:49',
+ 'title': '41天减肥38斤，有一点自己小小的心得，有减肥困惑的jr可以进来问问',
+ 'url': 'https://bbs.hupu.com/18893451.html'}
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894920.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894240.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894287.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18872434.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895085.html>
+{'artical': [],
+ 'author': '凯里貳文',
+ 'time': '19:50',
+ 'title': '歌词中出现哪些字眼会瞬间降低逼格？',
+ 'url': 'https://bbs.hupu.com/18895085.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895123.html>
+{'artical': [],
+ 'author': '我曰过鱼',
+ 'time': '19:50',
+ 'title': '在球场坐了半个小时，原因竟然是它！',
+ 'url': 'https://bbs.hupu.com/18895123.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893494.html>
+{'artical': ['那么《人民》的汉东省是否参照了现实中的某个省？'],
+ 'author': 'Isezaki',
+ 'time': '19:49',
+ 'title': '《二号首长》的江南省原型是湖南。那么《人民》的汉东省原型是哪个省？',
+ 'url': 'https://bbs.hupu.com/18893494.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894920.html>
+{'artical': [],
+ 'author': '堕胎好女孩',
+ 'time': '19:50',
+ 'title': '有没有逛咸鱼的jr。。。',
+ 'url': 'https://bbs.hupu.com/18894920.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/acg> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894802.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894240.html>
+{'artical': [],
+ 'author': 'MCLCYQ',
+ 'time': '19:50',
+ 'title': '关于男女身高问题，我陷入了深深的沉思',
+ 'url': 'https://bbs.hupu.com/18894240.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894287.html>
+{'artical': [],
+ 'author': '圣马刺乐队二营长',
+ 'time': '19:50',
+ 'title': '合味道在方便面界是什么水平？为什么大家钟爱康师傅统一？',
+ 'url': 'https://bbs.hupu.com/18894287.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18872434.html>
+{'artical': [],
+ 'author': '爱好战争',
+ 'time': '19:50',
+ 'title': '街上的jrs来说说韩国人真的不买日货吗',
+ 'url': 'https://bbs.hupu.com/18872434.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/14905423.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895035.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://bbs.hupu.com/acg> (referer: https://bbs.hupu.com/bxj)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Think\Desktop\spider\hupu\hupu\spiders\hupu.py", line 40, in parse_detail
+    item['title'] = response.xpath('//div[@class="subhead"]/span/text()')[0].extract()
+  File "c:\anaconda3\lib\site-packages\parsel\selector.py", line 58, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894802.html>
+{'artical': ['那个JR的主贴已经删除，下午忘记截图，大概描述下：',
+             '该JR夫妻双职工，一个事业编，一个教师，位居国内十线小城市，家庭月收入1W1。就是这样的条件却住着',
+             '（',
+             '）的廉租房，下午来街上咨询该不该上Q3（父母资助10-15W）。',
+             '发此贴无意去谴责该JR，只是我看到那个帖子的回复，实在是感到震惊。截止我在400多楼回帖，之前质疑该JR住廉租房资格的回复不超过10条。说实话，我被震惊了。一直以来，我都以为街上三观正，大家虽然过的有好有坏，但是都积极向上，努力生活。对热点事件都不盲从，都秉持客观公的原则。不像微博，戾气重；也不像知乎，充满精英的优越感；也不像网易，非左即右。这是我喜欢步行街的原因，也是我一直以JR自居的自豪。但是昨天和今天，我真的被震惊了，或者说是失望。',
+             '昨天那位香港JR发帖解释部分香港人讨厌内地（内地人）的原因。客观说，有些以偏概全，但是不得不承认，该JR描述的情况也是客观存在的。我想我们更多的应该是自省，或者通过交流让港人了解，那些不文明现象只是部分内地人。我们都不应该以偏概全的去定义对方，甚至攻击对方。但是纵观那个帖子的回复，大多数都是攻击那位香港JR，最后甚至被删帖。',
+             '说回要买Q3的这位JR，我看完主贴，我以为该JR应该被',
+             '惨了。然而事实正好相反，多数JRS都在讨论该与不该上或者该上什么，对于廉租房居然都视若无睹，我真的。。。。。。',
+             '我知道，国内的现实是怎么样。拥有资源的人，利用手中资源能够占取更多的资源，而一无所有的人，只能指望上层施舍些残渣。我们虽然无法改变这种现实，但我想我们都清楚，这样的状况是错误的。我们虽然通过自身的努力脱离了一无所有的境地，但是对于那些错误的方式，我们至少都是心知肚明的，内心是有价值判断的。虽然有时也会羡慕嫉妒恨，但是更多的时候是不耻的，鄙视的。我一直以为是这样，然而我万万没想到，原来是我一厢情愿。原来大部分人对于这样的现实已经习以为常了，不以为奇了。这真的是使我震惊，也让我对步行街感到失望。步行街不是熟人社区，不会存在碍于面子而不语的状况，大家更多的是将自己的价值观（或者说理想状态下的价值观、道德观）如常表现。所以，如果这在众多JRS眼中，这件事真的是不足为题的话，我真的想要离开了。',
+             'PS:可能我的观点没有表达清楚。首先我并没有谴责那位JR的意思。而是对大部分人的那种习以为常，不以为奇的态度感到震惊。生活中，我们身边如果有这样的熟人，我们或许碍于面子什么的会保持沉默。但是这里是网络，大家互不相识，发表观点不用想得那么多。却对于一个不公平的现象没有任何感觉，觉得那是正常现象。难道步行街的价值判断真的沦落至此了么？',
+             '下面是那位JR的帖子，有兴趣可以去看看下面的回复（主贴已经被楼主删除）'],
+ 'author': '小明好好吃饭',
+ 'time': '19:50',
+ 'title': '看了那个“月入过万，却住廉租房，来咨询该不该上Q3”的回复，  我。。。',
+ 'url': 'https://bbs.hupu.com/18894802.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894985.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18863282.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895051.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891922.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/14905423.html>
+{'artical': ['\xa0 并且这种战舰也在战争中有作用，现在投资这么多钱不浪费？难道是为了玩船震？',
+             '\xa0美国这种海军军事力量是什么水平？ \xa0难道真的跟第二的差距已经隔了一个喜马拉雅山了？',
+             '\xa0到底美国海军具体厉害到哪里？是科技还是军事素养，还是人才多？',
+             '\xa0这么强大的海军力量，会不会导致陆军和空军失衡而太弱小？',
+             '\xa0还有，美国的海豹突击队是什么水平？是不是可以单挑中国特种兵的存在？'],
+ 'author': '未来的三年',
+ 'time': '19:50',
+ 'title': '美国的海军军事力量在世界上是什么水平？海豹突击队算是美国精英海军作战兵种吗？',
+ 'url': 'https://bbs.hupu.com/14905423.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895035.html>
+{'artical': [],
+ 'author': '皇贞季',
+ 'time': '19:50',
+ 'title': '一位老警察的朋友圈评论，各位JR怎么看？',
+ 'url': 'https://bbs.hupu.com/18895035.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895148.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894985.html>
+{'artical': [],
+ 'author': '雨中月',
+ 'time': '19:50',
+ 'title': '朋友为了买房假离婚，结果成真离婚了',
+ 'url': 'https://bbs.hupu.com/18894985.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18863282.html>
+{'artical': [],
+ 'author': '瘦瘦的大壮',
+ 'time': '19:50',
+ 'title': '有关驾校的一些猫腻我来告诉你',
+ 'url': 'https://bbs.hupu.com/18863282.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18764019.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894475.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894411.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895051.html>
+{'artical': ['问问街上JRS，点外卖的时候更倾向于哪家呢？？'],
+ 'author': '醒了接着睡',
+ 'time': '19:50',
+ 'title': '外卖而论，美团、饿了么、百度到底哪家强？',
+ 'url': 'https://bbs.hupu.com/18895051.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891922.html>
+{'artical': [],
+ 'author': 'assholeeric',
+ 'time': '19:50',
+ 'title': '【每月工资单】午时已到！晒一晒你3月的工资单，和大家一起分享下吧~',
+ 'url': 'https://bbs.hupu.com/18891922.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894949.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895148.html>
+{'artical': [],
+ 'author': 'Bonekk',
+ 'time': '19:50',
+ 'title': '分手之后一直存在的疑惑 求情商高的jr解答',
+ 'url': 'https://bbs.hupu.com/18895148.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891956.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893813.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18764019.html>
+{'artical': ['\r\nCPU：I7\xa07700k散片\xa02189',
+             '主板：华硕Z270-AR 1299',
+             '内存：芝奇8G 2400*2 \xa0399*2',
+             'SSD：三星PM961 256G M.2 749',
+             '硬盘：希捷1T\xa064M\xa07200\xa0309',
+             '显卡：影驰GTX1080 HOF 名人堂 \xa03999 《很多卡都这个价格了我随便给的一款》',
+             '电源:振华G 550 \xa0579',
+             '机箱：恩杰S340 \xa0349',
+             '水冷：海盗船H60 \xa0499',
+             '总计：10770 \xa0 想缩下 缩到1W也是很OK的。',
+             '\xa0',
+             '\xa0\xa0\xa0\xa0\xa0 1700X的',
+             '\xa0CPU:RYZEN\xa01700X\xa02899',
+             '主板：华硕X370-PRO\xa01299',
+             '内存：芝奇8G\xa02400\xa0DDR4\xa0*2\xa0\xa0399*2',
+             'SSD:英特尔600P\xa0256G\xa0M.2\xa0659',
+             '硬盘;希捷1T\xa0309',
+             '显卡；微星GTX1070\xa0GAMING\xa0X\xa02999',
+             '电源：振华GX550\xa0\xa0479',
+             '机箱：恩杰S340\xa0349',
+             '散热：海盗船H60\xa0499',
+             '合计：10290',
+             '不考虑预算的7700K+1080TI'],
+ 'author': '丨bleach丶',
+ 'time': '19:50',
+ 'title': '基佬帮JRs电脑DIY写配置',
+ 'url': 'https://bbs.hupu.com/18764019.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894770.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894475.html>
+{'artical': [],
+ 'author': 'ray．allen',
+ 'time': '19:50',
+ 'title': '李玉刚的“刚好遇见你”是怎么排到网易云榜首的？一股浓浓的网络歌曲味~',
+ 'url': 'https://bbs.hupu.com/18894475.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894411.html>
+{'artical': [],
+ 'author': '日子的日子',
+ 'time': '19:50',
+ 'title': '开车需要不停修正方向盘吗？',
+ 'url': 'https://bbs.hupu.com/18894411.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894949.html>
+{'artical': [],
+ 'author': '唉只剩KG了',
+ 'time': '19:50',
+ 'title': '求助家人们，女朋友的父亲白血病，急需O型血小板捐赠',
+ 'url': 'https://bbs.hupu.com/18894949.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891956.html>
+{'artical': [],
+ 'author': 'SmithKobe',
+ 'time': '19:50',
+ 'title': 'ZT国防部怒怼日本防卫省：日方心病没治好。  这波回应什么水平？',
+ 'url': 'https://bbs.hupu.com/18891956.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894571.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893813.html>
+{'artical': [],
+ 'author': 'Lemon莲莲',
+ 'time': '19:50',
+ 'title': '说说颈椎问题和玩手机影响颈椎的事',
+ 'url': 'https://bbs.hupu.com/18893813.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/selfie> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894770.html>
+{'artical': [],
+ 'author': '牧马计',
+ 'time': '19:50',
+ 'title': '火车站数次偶遇一7分妹子，而我却。。。有重大福利！',
+ 'url': 'https://bbs.hupu.com/18894770.html'}
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894571.html>
+{'artical': ['如题:',
+             '一个女孩分手了，因为男朋友出轨，两人已经发生过关系。',
+             '这个时候，女孩要再相亲结婚，会有多难？',
+             '我说的难指的是。在选择方面，会遭受到多大压力和诽议？找一个相亲相爱的有多难？',
+             '现在的小年轻同居越来越多，非女再嫁一个真心相爱的好男人真的容易吗？'],
+ 'author': '汉普顿',
+ 'time': '19:50',
+ 'title': '不懂就问:已经有过婚前性行为的女人再找对象，到底有多难？',
+ 'url': 'https://bbs.hupu.com/18894571.html'}
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895014.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893300.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894013.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://bbs.hupu.com/selfie> (referer: https://bbs.hupu.com/bxj)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Think\Desktop\spider\hupu\hupu\spiders\hupu.py", line 40, in parse_detail
+    item['title'] = response.xpath('//div[@class="subhead"]/span/text()')[0].extract()
+  File "c:\anaconda3\lib\site-packages\parsel\selector.py", line 58, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/ent> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18891550.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895014.html>
+{'artical': [],
+ 'author': '闪电侠德维恩丶韦德',
+ 'time': '19:50',
+ 'title': '练哑铃真的没有用吗？',
+ 'url': 'https://bbs.hupu.com/18895014.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18702431.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893502.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893853.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893300.html>
+{'artical': ['我家这边叫这个麻叶果 超好吃 你们家呢 ？'],
+ 'author': 'TheRoseLO',
+ 'time': '19:50',
+ 'title': '清明过了大家都吃了清明果吗？',
+ 'url': 'https://bbs.hupu.com/18893300.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894013.html>
+{'artical': [],
+ 'author': '洛杉矶宇宙飞船',
+ 'time': '19:50',
+ 'title': '老外真的很羡慕中国吗？',
+ 'url': 'https://bbs.hupu.com/18894013.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://bbs.hupu.com/ent> (referer: https://bbs.hupu.com/bxj)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Think\Desktop\spider\hupu\hupu\spiders\hupu.py", line 40, in parse_detail
+    item['title'] = response.xpath('//div[@class="subhead"]/span/text()')[0].extract()
+  File "c:\anaconda3\lib\site-packages\parsel\selector.py", line 58, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18891550.html>
+{'artical': [],
+ 'author': '理性小少年',
+ 'time': '19:50',
+ 'title': '应届生毕业第一年，大家都薪水?',
+ 'url': 'https://bbs.hupu.com/18891550.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18702431.html>
+{'artical': [],
+ 'author': '_Lutter',
+ 'time': '19:50',
+ 'title': '一些建议，给想自己DIY电脑的JRS',
+ 'url': 'https://bbs.hupu.com/18702431.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893502.html>
+{'artical': ['\xa0'
+             'lz最近看射雕三部，在射雕和神雕都没有郭靖黄蓉最后结局。在倚天塔顶，灭绝对周芷若就说了当年襄阳沦陷，郭靖黄蓉夫妇战死。lz就有问题了，当时应该第三次华山论剑不久，这时杨过去哪儿了？他不可能看着郭伯伯一家战死的吧？还有郭襄呢？倚天说她去找杨过了。难道不顾家人的么？还有一点，黄蓉绝顶聪明，又怎么会没想好退路？求步行街大神指教！ \xa0 \xa0 \xa0\xa0',
+             '\xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 \xa0 福利'],
+ 'author': '韦少绝对MVP',
+ 'time': '19:50',
+ 'title': '为什么襄阳大战郭靖黄蓉战死了，郭襄去哪儿了？杨过又去了哪儿？',
+ 'url': 'https://bbs.hupu.com/18893502.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894919.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893853.html>
+{'artical': [],
+ 'author': '爱侃球的嘉良WAng',
+ 'time': '19:50',
+ 'title': '有没有大学毕业想创业的或者创业成功的，说说自己的现状。',
+ 'url': 'https://bbs.hupu.com/18893853.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894914.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894829.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18889273.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18893505.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894950.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894919.html>
+{'artical': [],
+ 'author': '北外加油',
+ 'time': '19:51',
+ 'title': '有学习office技术的JR吗，分享一套非常实用的资源！',
+ 'url': 'https://bbs.hupu.com/18894919.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895109.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894914.html>
+{'artical': [],
+ 'author': '狼王艾佛森',
+ 'time': '19:50',
+ 'title': '不懂就问，猫扑跟虎扑有啥联系？',
+ 'url': 'https://bbs.hupu.com/18894914.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894829.html>
+{'artical': [],
+ 'author': '好好学习去买鞋',
+ 'time': '19:50',
+ 'title': '刚刚手机被锁的JR，你的大仇我帮你报了！',
+ 'url': 'https://bbs.hupu.com/18894829.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18889273.html>
+{'artical': [],
+ 'author': '天才冬瓜猫',
+ 'time': '19:51',
+ 'title': '不懂就问！为什么湖南的房价那么低.',
+ 'url': 'https://bbs.hupu.com/18889273.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18893505.html>
+{'artical': ['这些年诗人不好当。',
+             '新诗一百年了，圈子内煞有介事，圈外可能也不大为人认可。这些年梨花体、废话体、羊羔体，更是让新诗沦为大众眼中的分行。前年余秀华出来，好歹给诗歌注入了一点正能量。但余秀华的走红也是一种讽刺:如同海子、顾城一样，诗歌总是只能以非正常手段走入大众。',
+             '楼主80后，非著名诗人。写诗十年。出过诗集，在国内一些诗歌刊物发表过诗。',
+             '大家对诗、诗人如有好奇，我可勉为解答。',
+             'ps：没想到jrs这么热情。我来步行街也快三年了吧。多是潜水。很高兴可以在这里和大家交流，尤其还是针对“诗歌”这个没有定义、人人可说的话题。希望我的三言两语，能让jrs对当下的诗有所了解。',
+             '问题太多，可能无法一一回复。有些问题在这里统一答复下吧：',
+             '很多朋友问：什么是诗？这算是“天问”吧。很难回答。我曾经写过一句诗：“世界很满了，还容得下我的目光。”诗也许就是我们看待世界的目光：你的阅读磨砺你的目光，你对生活的观察凝聚你的目光。',
+             '写诗不是我的职业。我在一家传媒公司工作，离街薪差得远，尚能养活自己。国内我喜欢的诗人有穆旦、韩东、黄灿然、雷平阳、张执浩、陈先发、朵渔、宇向……国外有里尔克、沃尔科特、曼德尔施塔姆、弗罗斯特。',
+             '很多朋友让我上诗。我无耻地发几首。如果写得不好，欢迎嘲笑；如果有哪位诗人朋友认出来了，那就喝酒的时候再嘲笑吧。',
+             '福利我懂:'],
+ 'author': '马走斜',
+ 'time': '19:51',
+ 'title': '终于轮到我了：我是一个诗人，大家有什么想了解的？',
+ 'url': 'https://bbs.hupu.com/18893505.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894065.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894950.html>
+{'artical': [],
+ 'author': '盖伊kk',
+ 'time': '19:50',
+ 'title': '步行街谁能给我翻译翻译什么叫惊喜？',
+ 'url': 'https://bbs.hupu.com/18894950.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894417.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895109.html>
+{'artical': [],
+ 'author': '神眷之樱',
+ 'time': '19:51',
+ 'title': '洗澡玄学!洗头时头发居然扎进手里',
+ 'url': 'https://bbs.hupu.com/18895109.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18894750.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894065.html>
+{'artical': [],
+ 'author': 'Sagittarius°',
+ 'time': '19:51',
+ 'title': '虎扑的确需要女性来矫正一下直男癌对女权的偏见 ',
+ 'url': 'https://bbs.hupu.com/18894065.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894417.html>
+{'artical': [],
+ 'author': '津巴布韦首富',
+ 'time': '19:51',
+ 'title': '目前为止，《人民的名义》哪句台词尺度最大，让你惊讶？',
+ 'url': 'https://bbs.hupu.com/18894417.html'}
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/18895136.html> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://bbs.hupu.com/cars> (referer: https://bbs.hupu.com/bxj)
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18894750.html>
+{'artical': ['店不算很多（比汉堡王还少）', '个人觉得还可以，面包不错 \xa0'],
+ 'author': '甲贺忍法帖',
+ 'time': '19:51',
+ 'title': '赛百味，吃货JR 觉得如何？',
+ 'url': 'https://bbs.hupu.com/18894750.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://bbs.hupu.com/18895136.html>
+{'artical': ['结婚快一年了，事情是这样，我在家庭的微信群里，跟我哥说刚学会了几个新菜，有空的话叫上爸妈一块来家里吃饭。',
+             '我媳妇看到了，就问我怎么没跟她商量。',
+             '我觉得她可能不太愿意，因为工作最近忙。所以我就打哈哈的态度想把这个事说过去。',
+             '之后就有了后面的对话，我觉得我媳妇有点不依不挠了，而且不待见我家人，我就发火了。',
+             '对了，昨天的时候也吵架了，最近两个人火气都有点大。',
+             '想请教一下各位过来的朋友的，到底谁对谁错，我自己看不清楚了，到底是我不尊重她，还是她不尊重我的家人。'],
+ 'author': '.济南大学',
+ 'time': '19:51',
+ 'title': '跟媳妇又吵架了，请街上的朋友分析，到底错在谁。',
+ 'url': 'https://bbs.hupu.com/18895136.html'}
+2017-04-05 19:51:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://bbs.hupu.com/cars> (referer: https://bbs.hupu.com/bxj)
+Traceback (most recent call last):
+  File "c:\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Think\Desktop\spider\hupu\hupu\spiders\hupu.py", line 40, in parse_detail
+    item['title'] = response.xpath('//div[@class="subhead"]/span/text()')[0].extract()
+  File "c:\anaconda3\lib\site-packages\parsel\selector.py", line 58, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2017-04-05 19:51:51 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-04-05 19:51:51 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 45033,
+ 'downloader/request_count': 121,
+ 'downloader/request_method_count/GET': 121,
+ 'downloader/response_bytes': 2374476,
+ 'downloader/response_count': 121,
+ 'downloader/response_status_count/200': 121,
+ 'dupefilter/filtered': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 4, 5, 11, 51, 51, 674143),
+ 'item_scraped_count': 115,
+ 'log_count/DEBUG': 238,
+ 'log_count/ERROR': 4,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 121,
+ 'scheduler/dequeued': 120,
+ 'scheduler/dequeued/memory': 120,
+ 'scheduler/enqueued': 120,
+ 'scheduler/enqueued/memory': 120,
+ 'spider_exceptions/IndexError': 4,
+ 'start_time': datetime.datetime(2017, 4, 5, 11, 51, 45, 174287)}
+2017-04-05 19:51:51 [scrapy.core.engine] INFO: Spider closed (finished)
